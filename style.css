@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(51, 100, 173);
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Open Sans', sans-serif;
+
+}
+#header #logo{
+    color: white;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: -20px;
+}
+#header #heading{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+#inputForm .inputfields{
+    background-color: white;
+    border-radius: 12px;
+}
+#inputForm .inputfields input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 16px 0px 16px 0px;
+    font-size: 16px;
+    text-indent: 20px;
+}
+#inputForm .inputfields input[type = "text"]{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+#inputForm .inputfields input[type = "password"]{
+    border-top: 1px solid grey;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+#inputForm .inputfields input:focus{
+    color: rgb(51, 100, 173);
+}
+
+#inputForm input[type = "submit"]{
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(40, 40, 214);
+    color: white;
+    width: 100%;
+    border-radius: 6px;
+    padding: 12px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+#inputForm input[type = "submit"]:hover{
+    background-color: rgb(26, 24, 24);
+}
+#footer p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#footer a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
